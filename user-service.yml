@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test-ecommerce
+    username: sa
+    password: '{cipher}AYAWlIFoaJvFj0nMJ3CvLRYA+YBYLOtQl1MfHxjS8jpiArKgwEk4MVvJqOhK6AUaCFay8okknG2TLMp1s9C4hnPwzG0OTtM9gJ9fV2JDBUbdImW86VqjN1RtE6W4Dq9GIwq8B7YVG0mzJKB7m03jVWGm0tVpsxu3EL+A5beBGq1Mp32W6fLvNzSMKIWCU0W/SZvdOjKQKHt+273jUbwoMeKk5KZr8MdDwB5IZjEYzPY87ODFTIgtevzE5YcDdspDrL4f9MU9jxlzI5GYLz/sKrYbxTR1w2u0SZ0y0//X2TZ6uwvRBqHys0ZhHB6SX6QzwhljReAHE8F3XIYRFIGhx+EXP+JHZ1yM1MvXBY55fciZM7vOny/N3Hp9CYu/+LYYZ8+Oqwnxa9+lo4LlOIZjj7ZM+RrACtA8o5Wi52MpsWAlXFxPfJphu3PbNvIc2k8oaK+uMBih+SlAw8dcPkQ97aU2OMdcWQSFn62tERy/CBdOd0sQX5/hkz1r1trDGerS/JFMrmsDHnKzjeACqx+/SsYnWgNDGlBrOfXuRzQOEMOVJA=='
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+      path: /h2-console
+
+order-service:
+  url: http://ORDER-SERVICE/order-service/%s/orders

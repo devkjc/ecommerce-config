@@ -1,9 +1,2 @@
-token:
-  expiration_time: 86400000000
-  secret: aGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4KaGVsbG9fam9uZ2NoYW4K
-
-gateway:
-  ip: 192.168.0.101
-
 hello:
-  jongchan: HelloJongChan2
+  jongchan: HelloJongChan23
